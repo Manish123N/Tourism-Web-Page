@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-container{
+    background-image: url(images/third.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card{
+    height: 60%;
+    width: 30%;
+    background-color: #ffffffc5;
+    margin-left: 35%;
+    border-radius: 20px;
+    text-align: center;
+}
+#main-heading{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 60px;
+    color: rgb(248, 106, 130);
+}
+#desc{
+    text-align: center;
+    margin-top: 10%;
+    color: skyblue;
+    font-size: 20px;
+}
+#button{
+    margin-top: 15%;
+    height: 50px;
+    width: 150px;
+    border: solid 1px rgb(248, 106, 130);
+    border-radius: 20px;
+    background-color: skyblue;
+    color: #ffffff;
+    font-size: 18px;
+}
+#button:hover{
+    background-color: rgb(248, 106, 130);
+    border-color: skyblue;
+}
+.card:hover{
+    background-color: #ffffffea;
+}

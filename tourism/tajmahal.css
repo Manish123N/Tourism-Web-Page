@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-container{
+    background-image: url('images/first.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card{
+    height: 70vh;
+    width: 80vw;
+    background-color: #ffffffab;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+}
+.img-slide{
+    height: 70vh;
+    width: 40vw;
+    margin-top: 9vh;
+    margin-left: 5px;
+    background-image: url(images/taj\ mahal.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    animation-name: imgslider;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes imgslider {
+    33%{
+        background-image: url(images/taj\ mahal2.jpg);
+        background-repeat: no-repeat;
+    }
+    66%{
+        background-image: url(images/taj\ mahal3.jpg);
+        background-repeat: no-repeat;
+    }
+}
+.img-desc{
+    height: 70vh;
+    width: 40vw;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 18px;
+}
